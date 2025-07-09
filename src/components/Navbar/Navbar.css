@@ -61,13 +61,14 @@ transition: 0.4s;
 @media (max-width: 1050px) {
     .navbar .logo{
         width: 140px;
+        font-size: 30px;
     }
-    .nav-menu{
+    .navbar-menu{
         gap: 20px;
         font-size: 17px;
     }
     .navbar-right{
-        gap: 20px;
+        gap: 30px;
     }
     .navbar-right img{
         width: 22px;
@@ -80,8 +81,10 @@ transition: 0.4s;
 @media (max-width: 900px) {
     .navbar .logo{
         width: 120px;
+        font-size: 17px;
+
     }
-    .nav-menu{
+    .navbar-menu{
         gap: 15px;
         font-size: 16px;
     }
@@ -97,8 +100,9 @@ transition: 0.4s;
     }
 }
 
+
 @media (max-width: 750px) {
-    .nav-menu{
+    .navbar-menu{
         display: none;
     }
 }
